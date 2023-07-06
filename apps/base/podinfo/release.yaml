@@ -12,6 +12,7 @@ spec:
         kind: HelmRepository
         name: podinfo
   interval: 50m
+  timeout: 5m
   install:
     remediation:
       retries: 3
